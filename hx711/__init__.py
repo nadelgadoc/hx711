@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 try:
-    import RPi.GPIO as GPIO
+    import Jetson.GPIO as GPIO
 except ImportError:
     raise ImportError(
-        "You probably have to install RPi.GPIO"
+        "You probably have to install Jetson.GPIO"
     )
 import time
 import logging
