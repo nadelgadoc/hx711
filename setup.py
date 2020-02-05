@@ -32,8 +32,8 @@ class PostInstallCommand(install):
         install.run(self)
 
 
-#with open(str(base_dir / 'README.md'), encoding='utf-8') as f:
-#    long_description = f.read()
+with open(str(base_dir / 'README.md')) as f:
+    long_description = f.read()
 
 
 setup(
